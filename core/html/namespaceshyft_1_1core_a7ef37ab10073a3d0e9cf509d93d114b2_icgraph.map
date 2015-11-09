@@ -1,0 +1,6 @@
+<map id="shyft::core::deltahours" name="shyft::core::deltahours">
+<area shape="rect" id="node2" href="$classshyft_1_1core_1_1kirchner_1_1calculator.html#a60db6f04ed9e65215d9d4913cd5cd87e" title="step Kirchner model forward from time t0 to time t1 " alt="" coords="205,71,344,112"/>
+<area shape="rect" id="node3" href="$namespaceshyft_1_1core_1_1pt__gs__k.html#a9bc3d65f9270162994ad4a0a44b36f70" title="Calculation Model using assembly of PriestleyTaylor, GammaSnow and Kirchner. " alt="" coords="392,5,516,47"/>
+<area shape="rect" id="node4" href="$namespaceshyft_1_1core_1_1pt__hs__k.html#af77b635a379f104a9a0e2130bab12be9" title="shyft::core::pt_hs\l_k::run" alt="" coords="392,71,516,112"/>
+<area shape="rect" id="node5" href="$namespaceshyft_1_1core_1_1pt__ss__k.html#a054d9182cc5297b39ecf0fc02baedeb0" title="shyft::core::pt_ss\l_k::run" alt="" coords="392,136,516,177"/>
+</map>

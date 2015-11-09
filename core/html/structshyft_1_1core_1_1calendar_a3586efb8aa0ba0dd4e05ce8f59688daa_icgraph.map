@@ -1,0 +1,10 @@
+<map id="shyft::core::calendar::calendar_units" name="shyft::core::calendar::calendar_units">
+<area shape="rect" id="node2" href="$structshyft_1_1core_1_1calendar.html#a58a6bf55b65005aca0a4c8e889b4479a" title="returns day_of year, 1..365.. " alt="" coords="195,34,336,75"/>
+<area shape="rect" id="node3" href="$structshyft_1_1core_1_1calendar.html#aef13881a602103bc881cfc1a70c14741" title="returns the month of t, 1..12 " alt="" coords="195,99,336,141"/>
+<area shape="rect" id="node7" href="$structshyft_1_1core_1_1calendar.html#a428d52abcc42e144ba43e2d17b0f0437" title="shyft::core::calendar\l::month" alt="" coords="195,165,336,206"/>
+<area shape="rect" id="node9" href="$structshyft_1_1core_1_1calendar.html#ad1513965bdc0c71829ae884ad74d4162" title="shyft::core::calendar\l::trim" alt="" coords="195,230,336,271"/>
+<area shape="rect" id="node4" href="$classshyft_1_1core_1_1bayesian__kriging_1_1parameter.html#ab7ef52857485cdb1ca956f6c313936f4" title="shyft::core::bayesian\l_kriging::parameter::\ltemperature_gradient" alt="" coords="384,5,528,61"/>
+<area shape="rect" id="node5" href="$structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a965fc06c13d5b46a884459fd6375cdd4" title="shyft::core::gamma\l_snow::parameter::is\l_snow_season" alt="" coords="384,165,528,221"/>
+<area shape="rect" id="node6" href="$structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a8aa7cac671c059dc09d2cf9680e39241" title="shyft::core::gamma\l_snow::parameter::is\l_start_melt_season" alt="" coords="384,85,528,141"/>
+<area shape="rect" id="node8" href="$structshyft_1_1core_1_1calendar.html#a47c5bfee1c6183af4b5e493e522b5a09" title="shyft::core::calendar\l::from_day_number" alt="" coords="385,263,527,305"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="shyft::core::utcperiod::timespan" name="shyft::core::utcperiod::timespan">
+<area shape="rect" id="node2" href="$namespaceshyft_1_1core_1_1pt__gs__k.html#a9bc3d65f9270162994ad4a0a44b36f70" title="Calculation Model using assembly of PriestleyTaylor, GammaSnow and Kirchner. " alt="" coords="200,5,324,47"/>
+<area shape="rect" id="node3" href="$namespaceshyft_1_1core_1_1pt__hs__k.html#af77b635a379f104a9a0e2130bab12be9" title="shyft::core::pt_hs\l_k::run" alt="" coords="200,71,324,112"/>
+<area shape="rect" id="node4" href="$namespaceshyft_1_1core_1_1pt__ss__k.html#a054d9182cc5297b39ecf0fc02baedeb0" title="shyft::core::pt_ss\l_k::run" alt="" coords="200,136,324,177"/>
+<area shape="rect" id="node5" href="$namespaceshyft_1_1timeseries.html#a0d651da5f6e3bc99dabe237a36c6e66c" title="average_value provides a projection/interpretation of the values of a pointsource on to a time&#45;axis a..." alt="" coords="199,201,325,243"/>
+<area shape="rect" id="node6" href="$classshyft_1_1timeseries_1_1average__accessor.html#a2500b93ac15478aa6857fa8dc2729d91" title="shyft::timeseries::\laverage_accessor::value" alt="" coords="373,201,540,243"/>
+<area shape="rect" id="node7" href="$structshyft_1_1core_1_1model__calibration_1_1ts__transform.html#a227bf627cd34db1751e68dd60edfa49b" title="transform the supplied time&#45;series, f(t) interpreted according to its point_interpretation() policy i..." alt="" coords="588,194,757,250"/>
+</map>

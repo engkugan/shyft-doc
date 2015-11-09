@@ -1,0 +1,9 @@
+<map id="shyft::core::pt_hs_k::discharge_collector" name="shyft::core::pt_hs_k::discharge_collector">
+<area shape="rect" id="node2" href="$classshyft_1_1timeseries_1_1point__timeseries.html" title="shyft::timeseries::\lpoint_timeseries\&lt; timeaxis \&gt;" alt="" coords="265,39,456,80"/>
+<area shape="rect" id="node3" href="$classshyft_1_1timeseries_1_1timeaxis.html" title="The timeaxis supports most common needs in shyft::core, especially for regular forecast scenario with..." alt="" coords="17,5,144,47"/>
+<area shape="rect" id="node4" href="$structshyft_1_1core_1_1pt__hs__k_1_1response__t.html" title="shyft::core::pt_hs\l_k::response_t" alt="" coords="299,136,423,177"/>
+<area shape="rect" id="node5" href="$structshyft_1_1core_1_1priestley__taylor_1_1response.html" title="shyft::core::priestley\l_taylor::response" alt="" coords="10,71,151,112"/>
+<area shape="rect" id="node6" href="$structshyft_1_1core_1_1kirchner_1_1response.html" title="shyft::core::kirchner\l::response" alt="" coords="11,136,150,177"/>
+<area shape="rect" id="node7" href="$structshyft_1_1core_1_1hbv__snow_1_1response.html" title="shyft::core::hbv_snow\l::response" alt="" coords="5,201,156,243"/>
+<area shape="rect" id="node8" href="$structshyft_1_1core_1_1actual__evapotranspiration_1_1response.html" title="shyft::core::actual\l_evapotranspiration\l::response" alt="" coords="13,266,148,322"/>
+</map>

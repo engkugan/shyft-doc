@@ -1,0 +1,5 @@
+<map id="shyft::timeseries::hint_based_search" name="shyft::timeseries::hint_based_search">
+<area shape="rect" id="node2" href="$namespaceshyft_1_1timeseries.html#a0d651da5f6e3bc99dabe237a36c6e66c" title="average_value provides a projection/interpretation of the values of a pointsource on to a time&#45;axis a..." alt="" coords="184,13,311,54"/>
+<area shape="rect" id="node3" href="$classshyft_1_1timeseries_1_1average__accessor.html#a2500b93ac15478aa6857fa8dc2729d91" title="shyft::timeseries::\laverage_accessor::value" alt="" coords="359,13,525,54"/>
+<area shape="rect" id="node4" href="$structshyft_1_1core_1_1model__calibration_1_1ts__transform.html#a227bf627cd34db1751e68dd60edfa49b" title="transform the supplied time&#45;series, f(t) interpreted according to its point_interpretation() policy i..." alt="" coords="573,5,743,61"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="shyft::timeseries::timeaxis::start" name="shyft::timeseries::timeaxis::start">
+<area shape="rect" id="node2" href="$structshyft_1_1core_1_1pt__gs__k_1_1state__collector.html#a21037770a783200cc1ef93743f577122" title="shyft::core::pt_gs\l_k::state_collector\l::initialize" alt="" coords="180,5,309,61"/>
+<area shape="rect" id="node3" href="$structshyft_1_1core_1_1pt__hs__k_1_1state__collector.html#a48ca1286568daf6a56d2041b36db6ff7" title="shyft::core::pt_hs\l_k::state_collector\l::initialize" alt="" coords="180,85,309,141"/>
+<area shape="rect" id="node4" href="$structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#adc4d5bcfafee88ee7c86f3d0e98d3ab9" title="shyft::core::pt_ss\l_k::state_collector\l::initialize" alt="" coords="180,165,309,221"/>
+</map>

@@ -1,0 +1,19 @@
+\form#0:$p_1 = (x_1, y_1, z_1)$
+\form#1:$p_2 = (x_2, y_2, z_2)$
+\form#2:$d=\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2 + (l(z_1-z_2))^2}$
+\form#3:$l$
+\form#4:\[ cov(p_1, p_2) = (s-n)e^{-\frac{d}{r}} \]
+\form#5:$s$
+\form#6:$n$
+\form#7:$r$
+\form#8:$ F\in{} \mathcal{R}^{n,2} $
+\form#9:$ F\in{} \mathcal{R}^{2,m} $
+\form#10:$m$
+\form#11:$t_0$
+\form#12:$t_1$
+\form#13:$[t_i, t_i + dt_i]$
+\form#14:$dt_i$
+\form#15:$t_i$
+\form#16:$t_{i+1} = t_i + dt_i$
+\form#17:$n-1$
+\form#18:$\frac{dQ}{dt} = g(Q)(P-E-Q)$

@@ -1,0 +1,5 @@
+<map id="shyft::core::calendar::day_of_year" name="shyft::core::calendar::day_of_year">
+<area shape="rect" id="node2" href="$classshyft_1_1core_1_1bayesian__kriging_1_1parameter.html#ab7ef52857485cdb1ca956f6c313936f4" title="shyft::core::bayesian\l_kriging::parameter::\ltemperature_gradient" alt="" coords="195,5,339,61"/>
+<area shape="rect" id="node3" href="$structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a965fc06c13d5b46a884459fd6375cdd4" title="shyft::core::gamma\l_snow::parameter::is\l_snow_season" alt="" coords="195,85,339,141"/>
+<area shape="rect" id="node4" href="$structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a8aa7cac671c059dc09d2cf9680e39241" title="shyft::core::gamma\l_snow::parameter::is\l_start_melt_season" alt="" coords="195,165,339,221"/>
+</map>
