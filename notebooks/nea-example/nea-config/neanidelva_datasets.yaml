@@ -1,0 +1,23 @@
+---
+sources:
+  - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
+    params:
+      stations_met: /geo/nunatak/hycamp/SHYFT_DATA/Norway/NeaNidelva/Statkraft/Datasets/Statkraft_SMG/precipitation.nc
+      selection_criteria: null
+  - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
+    params:
+      stations_met: /geo/nunatak/hycamp/SHYFT_DATA/Norway/NeaNidelva/Statkraft/Datasets/Statkraft_SMG/temperature.nc
+      selection_criteria: null
+  - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
+    params:
+      stations_met: /geo/nunatak/hycamp/SHYFT_DATA/Norway/NeaNidelva/Statkraft/Datasets/Statkraft_SMG/wind_speed.nc
+      selection_criteria: null
+  - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
+    params:
+      stations_met: /geo/nunatak/hycamp/SHYFT_DATA/Norway/NeaNidelva/Statkraft/Datasets/Statkraft_SMG/relative_humidity.nc
+      selection_criteria: null
+  - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
+    params:
+      stations_met: /geo/nunatak/hycamp/SHYFT_DATA/Norway/NeaNidelva/Statkraft/Datasets/Statkraft_SMG/global_radiation.nc
+      selection_criteria: null
+...
