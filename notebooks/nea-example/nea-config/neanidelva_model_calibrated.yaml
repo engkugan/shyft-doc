@@ -1,0 +1,32 @@
+# This file has been automatically generated after a calibration run
+model_parameters:
+  actual_evapotranspiration:
+    ae_scale_factor: 1.5
+  gamma_snow:
+    calculate_iso_pot_energy: false
+    fast_albedo_decay_rate: 11.12281516730884
+    glacier_albedo: 0.4
+    initial_bare_ground_fraction: 0.04
+    max_albedo: 0.9
+    max_water: 0.1
+    min_albedo: 0.49139609834183684
+    slow_albedo_decay_rate: 33.91326322583673
+    snow_cv: 0.4
+    snow_cv_altitude_factor: 0.0
+    snow_cv_forest_factor: 0.0
+    snowfall_reset_depth: 5.0
+    surface_magnitude: 30.0
+    tx: -0.8987884743772225
+    wind_const: 3.0716256509989766
+    wind_scale: 1.6427996236676572
+    winter_end_day_of_year: 100
+  kirchner:
+    c1: -3.7207469572496845
+    c2: 0.13770703712991925
+    c3: -0.05456813914902764
+  precipitation_correction:
+    scale_factor: 0.8657881739975073
+  priestley_taylor:
+    albedo: 0.2
+    alpha: 1.26
+model_t: !!python/name:shyft.api.pt_gs_k._pt_gs_k.PTGSKModel
