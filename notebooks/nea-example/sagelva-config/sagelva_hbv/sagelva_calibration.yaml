@@ -1,0 +1,79 @@
+sagelva:
+  model_config_file: sagelva_simulation.yaml
+  calibrated_model_file: calibrated_model.yaml  # file where the calibrated params will go
+  optimization_method:
+    name: min_bobyqa # can be 'min_bobyqa', 'dream' or 'sceua'
+    params:
+      max_n_evaluations: 1500
+      tr_start: 0.01
+      tr_stop: 1.0e-5
+  target:
+  - repository: !!python/name:shyft.repository.netcdf.cf_ts_repository.CFTsRepository
+    params:
+      file: netcdf/orchestration-testdata/Hourly3h/discharge.nc
+      var_type: discharge
+    1D_timeseries:
+    - catch_id: [0]
+      uid: Hokfossen
+      start_datetime: 1991-09-01T00:00:00
+      run_time_step: 10800 # 3600
+      number_of_steps: 2920 # 26280
+      weight: 1.0
+      obj_func:
+        name: NSE # Nash–Sutcliffe efficiency (NSE) or Kling–Gupta efficiency (KGE)
+        scaling_factors:
+          s_corr: 1.0
+          s_var: 1.0
+          s_bias: 1.0
+  overrides:
+    model:
+      model_t: !!python/name:shyft.api.hbv_stack.HbvOptModel
+  calibration_parameters:
+    soil.fc:
+      min: 50
+      max: 400
+    soil.beta:
+      min: 1
+      max: 3
+    ae.lp:
+      min: 100
+      max: 200
+    tank.uz1:
+      min: 10
+      max: 40
+    tank.kuz2:
+      min: 0.3
+      max: 0.8   
+    tank.kuz1:
+      min: 0.1
+      max: 0.6
+    tank.perc:
+      min: 0.5
+      max: 1.0
+    tank.klz:
+      min: 0.01
+      max: 0.04   
+    snow.lw:
+      min: 0.005
+      max: 0.2
+    snow.tx:
+      min: -1.0
+      max: 2.0
+    snow.cx:
+      min: 0.1
+      max: 4.0
+    snow.ts:
+      min: -1.0
+      max: 2.5
+    snow.cfr:
+      min: 0.01 
+      max: 0.0
+    p_corr.scale_factor:
+      min: 0.7
+      max: 1.2
+    pt.albedo:
+      min: 0.2
+      max: 0.2
+    pt.alpha:
+      min: 1.26
+      max: 1.26

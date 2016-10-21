@@ -1,0 +1,24 @@
+---
+repository:
+  class: !!python/name:shyft.repository.netcdf.cf_region_model_repository.CFRegionModelRepository
+  params:
+    data_file: netcdf/orchestration-testdata/Hourly3h/CellData_50m/cell_data.nc
+
+domain:
+  EPSG: 32633
+  nx: 92
+  ny: 80
+  step_x: 50
+  step_y: 50
+  lower_left_x: 279000
+  lower_left_y: 7026000
+
+catchment_indices:
+  - 0
+
+
+#parameter_overrides:
+#  1228:
+#    kirchner:
+#        c1: -2.539
+...

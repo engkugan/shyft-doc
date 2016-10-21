@@ -1,0 +1,24 @@
+model_t: !!python/name:shyft.api.hbv_stack.HbvModel
+model_parameters:
+  hbv_snow:
+    cfr: 0.004996450964714752
+    cx: 0.5
+    lw: 0.028531336741072087
+    ts: 0.14429573702249798
+    tx: 0.19682851576895757 
+  hbv_actual_evapotranspiration:
+    lp: 150.0     
+  hbv_soil:
+    fc: 300.0
+    beta: 2.0  
+  precipitation_correction:
+    scale_factor: 1.0
+  priestley_taylor:
+    albedo: 0.2
+    alpha: 1.26
+  hbv_tank:
+    uz1: 20.0
+    perc: 0.8   
+    kuz1: 0.4
+    kuz2: 0.5    
+    klz: 0.02   
