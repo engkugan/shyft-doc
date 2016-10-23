@@ -4,30 +4,30 @@ sources:
     types:
       - precipitation
     params:
-      stations_met: netcdf/orchestration-testdata/Hourly3h/precipitation.nc
+      stations_met: netcdf/orchestration-testdata/sagelva_data/precipitation.nc
       selection_criteria: null
   - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
     types:
       - temperature
     params:
-      stations_met: netcdf/orchestration-testdata/Hourly3h/temperature.nc
+      stations_met: netcdf/orchestration-testdata/sagelva_data/temperature.nc
       selection_criteria: null
   - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
     types:
       - wind_speed
     params:
-      stations_met: netcdf/orchestration-testdata/Hourly3h/wind_speed.nc
+      stations_met: netcdf/orchestration-testdata/sagelva_data/wind_speed.nc
       selection_criteria: null
   - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
     types:
       - relative_humidity
     params:
-      stations_met: netcdf/orchestration-testdata/Hourly3h/relative_humidity.nc
+      stations_met: netcdf/orchestration-testdata/sagelva_data/relative_humidity.nc
       selection_criteria: null
   - repository: !!python/name:shyft.repository.netcdf.cf_geo_ts_repository.CFDataRepository
     types:
       - radiation
     params:
-      stations_met: netcdf/orchestration-testdata/Hourly3h/radiation.nc
+      stations_met: netcdf/orchestration-testdata/sagelva_data/radiation.nc
       selection_criteria: null
 ...

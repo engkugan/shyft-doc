@@ -10,7 +10,7 @@ sagelva:
   target:
   - repository: !!python/name:shyft.repository.netcdf.cf_ts_repository.CFTsRepository
     params:
-      file: netcdf/orchestration-testdata/Hourly3h/discharge.nc
+      file: netcdf/orchestration-testdata/sagelva_data/discharge.nc
       var_type: discharge
     1D_timeseries:
     - catch_id: [0]
@@ -53,19 +53,19 @@ sagelva:
     tank.klz:
       min: 0.01
       max: 0.04   
-    snow.lw:
+    hs.lw:
       min: 0.005
       max: 0.2
-    snow.tx:
+    hs.tx:
       min: -1.0
       max: 2.0
-    snow.cx:
+    hs.cx:
       min: 0.1
       max: 4.0
-    snow.ts:
+    hs.ts:
       min: -1.0
       max: 2.5
-    snow.cfr:
+    hs.cfr:
       min: 0.01 
       max: 0.0
     p_corr.scale_factor:

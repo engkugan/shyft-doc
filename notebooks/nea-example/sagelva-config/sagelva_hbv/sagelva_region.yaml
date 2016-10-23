@@ -2,7 +2,7 @@
 repository:
   class: !!python/name:shyft.repository.netcdf.cf_region_model_repository.CFRegionModelRepository
   params:
-    data_file: netcdf/orchestration-testdata/Hourly3h/CellData_50m/cell_data.nc
+    data_file: netcdf/orchestration-testdata/sagelva_data/cell_data.nc
 
 domain:
   EPSG: 32633
